@@ -162,6 +162,7 @@
       }
     },
     "diddoc": {
+      "didDocumentList": [],
       "params": {
         "didPrefix": "did:empe:testnet:"
       }
@@ -210,7 +211,7 @@
                   "max_rate": "0.200000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
-                "min_self_delegation": "0",
+                "min_self_delegation": "100",
                 "delegator_address": "empe1lzhz50370v2kngwgx4r6f2e426kykpdt98xy9p",
                 "validator_address": "empevaloper1lzhz50370v2kngwgx4r6f2e426kykpdtm0dlhs",
                 "pubkey": {
@@ -280,8 +281,7 @@
         "min_initial_deposit_ratio": "0.000000000000000000",
         "burn_vote_quorum": false,
         "burn_proposal_deposit_prevote": false,
-        "burn_vote_veto": true,
-        "min_deposit_ratio": "0.010000000000000000"
+        "burn_vote_veto": true
       }
     },
     "ibc": {
@@ -477,10 +477,7 @@
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "uempe",
-        "min_commission_rate": "0.000000000000000000",
-        "validator_bond_factor": "-1.000000000000000000",
-        "global_liquid_staking_cap": "1.000000000000000000",
-        "validator_liquid_staking_cap": "1.000000000000000000"
+        "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
@@ -488,11 +485,7 @@
       "delegations": [],
       "unbonding_delegations": [],
       "redelegations": [],
-      "exported": false,
-      "tokenize_share_records": [],
-      "last_tokenize_share_record_id": "0",
-      "total_liquid_staked_tokens": "0",
-      "tokenize_share_locks": []
+      "exported": false
     },
     "transfer": {
       "port_id": "transfer",
