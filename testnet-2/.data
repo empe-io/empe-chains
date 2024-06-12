@@ -1,0 +1,7 @@
+Name               testnet-2
+Release            v0.1.0
+Seeds              -
+Persistent peers   edfc10bbf28b5052658b3b8b901d7d0fc25812a0@193.70.45.145:26656,4bd60dee1cb81cb544f545589b8dd286a7b3fd65@149.202.73.140:26656,149383fab60d8845c408dce7bb93c05aa1fd115e@54.37.80.141:26656
+Minimum Gas Price  0.0001uempe
+Genesis Checksum   2aabbc5e3cabbd0f2cdb9a442dc476397c05b624f42ee23e832fdf1c48f60c91
+Binary Checksum    cc2f9129573f7110fbc949b548b2137fd5537f81279af780926d9000f4dcec54
